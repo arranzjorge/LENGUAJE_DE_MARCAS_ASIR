@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+}
+
+table.table1{
+    border: solid 1px;
+    display: inline-block;
+}
+th.th1{
+    border: solid 1px;
+    background-color: lightblue;
+}
+
+td.td1{
+    border: solid 1px;
+    text-align: center;
+
+}
+
+td.td2{
+    border: solid 1px;
+    text-align: center;
+    background-color: lightgray;
+}

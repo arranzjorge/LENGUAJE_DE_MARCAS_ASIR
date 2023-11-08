@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios - Pagina</title>
+    <!--Hecho por Jorge Arranz-->
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form action="">
+        <h2>Texto</h2>
+            <label for="nombre">Nombre: </label><input type="text" id="nombre" name="nombre">
+        <h2>Radio Button</h2>
+            <input type="radio" name="radio1" id="male" value="Male"><label for="male">Male</label><br> <input type="radio" name="radio1" id="female" value="Female"><label for="female">Female</label><br><input type="radio" name="radio1" id="other" value="Other"><label for="other">Other</label>
+        <h2>Selector de opciones</h2>
+            <label for="selection1">Marca de coche: </label><select name="selection1" id="selection1">
+                <option value="Volvo">Volvo</option>
+                <option value="Mercedes">Mercedes</option>
+                <option value="Toyota">Toyota</option>
+            </select>
+        <h2>Area de texto</h2>
+        <textarea name="Area de texto" cols="100" rows="10" placeholder="Texto inicial dentro del campo"></textarea>
+        <h2>Contraseña</h2>
+        <label for="contraseña">Keyword: </label><input type="password" name="contraseña" id="contraseña">
+        <h2>Checkbox</h2>
+        <p>Elige cuál es tu vehiculo</p><br><input type="checkbox" id="bici" value="bici"><label for="bici">Tengo una bici</label> <br> <input type="checkbox" id="coche" value="coche"><label for="coche">Tengo un coche</label> <br> <input type="checkbox" id="moto" value="moto"><label for="moto">Tengo una moto</label>
+        <h2>Subida de archivo</h2>
+        <p>Selecione el/los archivos a subir: <input type="file" ></p>
+        <input type="submit" value="Enviar formulario" id="submit_button">
+    </form>
+</body>
+</html>

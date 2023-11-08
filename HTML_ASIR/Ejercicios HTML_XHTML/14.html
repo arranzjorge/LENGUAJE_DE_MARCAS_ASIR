@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rellena tu CV</title>
+</head>
+<body>
+    <h1>Rellena tu CV</h1>
+    <form action="">
+        <fieldset><legend>Datos personales</legend>
+            <label for="provincia">Provincia</label><br>
+            <select name="provincia" id="provincia">
+                <option value="-">-selecciona-</option>
+                <option value="alava">Alava</option>
+                <option value="ciudad_real">Ciudad real</option>
+                <option value="granada">Granada</option>
+                <option value="teruel">Teruel</option>
+            </select>
+            <label for="fecha_nacimiento">Fecha de nacimiento</label><br>
+            <input type="text" name="fecha_nacimiento" id="dia" style="width: 50px;"><label for="fecha_nacimiento"> de </label><select name="meses" id="meses">
+                <option value="enero">Enero</option>
+                <option value="febrero">Febrero</option>
+                <option value="marzo">Marzo</option>
+                <option value="octubre">Octube</option>
+                <option value="el_resto">otro</option>
+            </select><label for="fecha_nacimiento"> de </label><input type="text" name="fecha_nacimiento" id="año" style="width: 50px;">
+                <br><br>
+            <label for="temas_interes">Temas de Interés</label> <br>
+            <select name="temas_interes" id="temas_interes" multiple>
+                <option value="Administracion de bases de datos">Administracion de bases de datos</option>
+                <option value="Analisis y programacion">Analisis y programacion</option>
+                <option value="Arquitectura">Arquitectura</option>
+                <option value="Calidad">Calidad</option>
+                <option value="ERP, CRM, Business Intelligence">ERP, CRM, Business Intelligence</option>
+            </select>
+        </fieldset>
+    </form>
+</body>
+</html>

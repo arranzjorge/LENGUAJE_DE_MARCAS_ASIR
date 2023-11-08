@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informacion sobre el producto</title>
+</head>
+<body>
+    <h1>Informacion sobre el producto</h1>
+    <fieldset> <legend>Datos básicos</legend>
+        <label for="nombre">Nombre</label><br>
+        <input type="text" id="nombre">
+            <br><br>
+        <label for="descripcion">Descripcion</label><br>
+        <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>
+            <br><br>
+        <label for="subida_archivo">Foto</label> <input type="file" id="subida_archivo"><br><br>
+        <input type="checkbox" id="añadir_contador_visitas"><label for="añadir_contador_visitas">Añadir contador de visitas</label>
+    </fieldset>
+    <fieldset> <legend>Datos económicos</legend>
+        <label for="precio">Precio</label> <input type="number" id="precio"> <label for="precio">€</label> <label for="inpuestos">Inpuestos</label> <select name="impuestos" id="impuestos">
+            <option value="4%">4%</option>
+            <option value="10%">10%</option>
+            <option value="21%">21%</option>
+        </select>   
+        <br><p>Promoción</p>
+        <input type="radio" name="seleccion" value="ninguno" id="ninguno"><label for="ninguno">Ninguno</label><br>
+        <input type="radio" name="seleccion" value="transporte gratuito" id="transporte_gratuito"><label for="transporte_gratuito">Transporte gratuito</label><br>
+        <input type="radio" name="seleccion" value="5%" id="descuento5%"><label for="descuento5%">Descuento 5%</label><br>
+    </fieldset>
+</body>
+</html>
